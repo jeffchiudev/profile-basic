@@ -24,7 +24,7 @@ header a {
 
 
 /* for header background & proper spacing */
-header div {
+body > header {
     background-color: hsla(0, 90%, 24%, 0.897);
     padding-top: 15px;
     padding-bottom: 30px;
@@ -87,6 +87,10 @@ ol {
     width: 7%;
     margin: auto;
     padding-bottom: 20px;
+}
+
+li {
+    text-align: left;
 }
 
 a:link    { color: rgb(255, 0, 0);  }
